@@ -12,12 +12,11 @@ import { useSelector } from "react-redux";
 import { Navigate, Routes, Route } from "react-router-dom";
 import Homepage from "./Pages/Homepage";
 import Booksession from "./Pages/Booksession";
-import verifyToken from "./verifytoken";
 import { ROLES } from "../config";
 import Getuserinfo from "./dashboard/getuserinfo";
 import Login from "./Components/login/Login";
 import AdminLayout from "./layout/Layout";
-
+import verifyToken from "./verifyToken";
 
 const App = () => {
   const [auth, setAuth] = useState(null);
