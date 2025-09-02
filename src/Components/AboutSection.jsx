@@ -22,7 +22,7 @@ const AboutSection = () => {
             </h2>
             <p className="font-poppins-regular text-lg leading-relaxed mb-8">
               a seasoned psychologist with a passion for the arts. With a Master
-              degree in Clinical Psychology and ongoing advanced training in
+              degree in Clinical Psychology and certified training in
               psychotherapy and counseling.
             </p>
             {/* Divider line */}
@@ -31,24 +31,19 @@ const AboutSection = () => {
               style={{ backgroundColor: "#44534C" }}
             ></div>
             <p className="font-poppins-regular text-lg leading-relaxed mb-6">
-              I am committed to providing tailored one-on-one online therapy
-              sessions for individuals between the{" "}
-              <span className="font-poppins-bold">
-                age group of 12 to 40 years.
-              </span>{" "}
-              My approach is centered on understanding each person’s unique
-              needs and creating a safe, compassionate space for emotional
-              growth.
+              I am committed to providing tailored one-on-one online and offline
+              therapy sessions for individuals aged 12 to 40.My approach is
+              centered on understanding each person’s unique needs and creating
+              a safe, compassionate space for emotional growth.
             </p>
             <p className="font-poppins-regular text-lg leading-relaxed">
               Beyond my professional credentials, I am also a dedicated dancer
               and actor, incorporating elements of creativity and expression
               into my therapeutic approach. In addition to traditional talk
-              therapy, I offer{" "}
-              <span className="font-poppins-bold">dance therapy sessions</span>{" "}
-              to explore emotions and promote healing through movement. This
-              unique blend of therapy and artistic expression allows clients to
-              engage with their emotions in a deeper, more creative way.
+              therapy, I offer dance therapy sessions to explore emotions and
+              promote healing through movement. This unique blend of therapy and
+              artistic expression allows clients to engage with their emotions
+              in a deeper, more creative way.
             </p>
             {/* Additional paragraphs */}
             <p className="font-poppins-regular text-lg leading-relaxed mt-6">

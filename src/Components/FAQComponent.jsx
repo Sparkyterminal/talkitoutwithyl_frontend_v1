@@ -11,7 +11,7 @@ const FAQComponent = () => {
       id: 0,
       question: "What is therapy?",
       answer:
-        "Therapy is your safe space to talk, heal, and grow. It helps you understand your thoughts and emotions while giving you tools to cope and thrive.",
+        "Therapy provides a safe space to talk, heal, and grow. It helps you understand your thoughts and emotions while equipping you with tools to cope and thrive.",
     },
     {
       id: 1,
