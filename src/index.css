@@ -1,99 +1,13 @@
 /* @import "tailwindcss";
 
 @font-face {
-  font-family: 'CormorantGaramondRegular';
-  src: url('./assets/fonts/Cormorant_Garamond/CormorantGaramond-Regular.ttf') format('truetype');
-  font-weight: 400;
-  font-style: normal;
-}
-@font-face {
-  font-family: 'CormorantGaramondLight';
-  src: url('./assets/fonts/Cormorant_Garamond/CormorantGaramond-Light.ttf') format('truetype');
-  font-weight: 300;
-  font-style: normal;
-}
-@font-face {
-  font-family: 'CormorantGaramondBold';
-  src: url('./assets/fonts/Cormorant_Garamond/CormorantGaramond-Bold.ttf') format('truetype');
-  font-weight: 700;
-  font-style: normal;
-}
-@font-face {
-  font-family: 'CormorantGaramondItalic';
-  src: url('./assets/fonts/Cormorant_Garamond/CormorantGaramond-Italic.ttf') format('truetype');
-  font-weight: 400;
-  font-style: italic;
-}
-
-.font-comrod-regular {
-  font-family: 'CormorantGaramondRegular', serif;
-}
-.font-comrod-light {
-  font-family: 'CormorantGaramondLight', serif;
-}
-.font-comrod-bold {
-  font-family: 'CormorantGaramondBold', serif;
-}
-.font-comrod-italic {
-  font-family: 'CormorantGaramondItalic', serif;
-}
-
-@font-face {
-  font-family: 'PoppinsMedium';
-  src: url('./assets/fonts/Poppins/Poppins-Medium.ttf') format('truetype');
-  font-weight: 500;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'PoppinsRegular';
-  src: url('./assets/fonts/Poppins/Poppins-Regular.ttf') format('truetype');
-  font-weight: 400;
-  font-style: normal;
-}
-@font-face {
-  font-family: 'PoppinsBold';
-  src: url('./assets/fonts/Poppins/Poppins-Bold.ttf') format('truetype');
-  font-weight: 700;
-  font-style: normal;
-}
-@font-face {
-  font-family: 'PoppinsItalic';
-  src: url('./assets/fonts/Poppins/Poppins-Italic.ttf') format('truetype');
-  font-weight: 400;
-  font-style: italic;
-}
-
-.font-poppins-regular {
-  font-family: 'PoppinsRegular', sans-serif;
-}
-.font-poppins-medium {
-  font-family: 'PoppinsMedium', sans-serif;
-}
-.font-poppins-bold {
-  font-family: 'PoppinsBold', sans-serif;
-}
-.font-poppins-italic {
-  font-family: 'PoppinsItalic', sans-serif;
-}
-
-
-h1, h2, h3, h4, h5, h6 {
-  font-family: 'CormorantGaramondRegular', serif;
-}
-
-body, p, span, a, div {
-  font-family: 'PoppinsRegular', sans-serif;
-} */
-@import "tailwindcss";
-
-@font-face {
   font-family: "CormorantGaramondRegular";
-  src: url("./assets/fonts/Cormorant_Garamond/CormorantGaramond-Regular.woff") format("woff"),
-    /* Modern Browsers */ url("./assets/fonts/Cormorant_Garamond/CormorantGaramond-Regular.woff2")
+  src: url("./assets/fonts/Cormorant_Garamond/CormorantGaramond-Regular.woff")
+      format("woff"),
+    url("./assets/fonts/Cormorant_Garamond/CormorantGaramond-Regular.woff2")
       format("woff2"),
-    /* Modern Browsers */ url("./assets/fonts/Cormorant_Garamond/CormorantGaramond-Regular.ttf")
-      format("truetype"); /* Safari, Android, iOS */
+    url("./assets/fonts/Cormorant_Garamond/CormorantGaramond-Regular.ttf")
+      format("truetype");
   font-style: normal;
   font-weight: normal;
   text-rendering: optimizeLegibility;
@@ -101,11 +15,12 @@ body, p, span, a, div {
 
 @font-face {
   font-family: "CormorantGaramondLight";
-  src: url("./assets/fonts/Cormorant_Garamond/CormorantGaramond-Light.woff") format("woff"),
-    /* Modern Browsers */ url("./assets/fonts/Cormorant_Garamond/CormorantGaramond-Light.woff2")
+  src: url("./assets/fonts/Cormorant_Garamond/CormorantGaramond-Light.woff")
+      format("woff"),
+    url("./assets/fonts/Cormorant_Garamond/CormorantGaramond-Light.woff2")
       format("woff2"),
-    /* Modern Browsers */ url("./assets/fonts/Cormorant_Garamond/CormorantGaramond-Light.ttf")
-      format("truetype"); /* Safari, Android, iOS */
+    url("./assets/fonts/Cormorant_Garamond/CormorantGaramond-Light.ttf")
+      format("truetype");
   font-style: normal;
   font-weight: normal;
   text-rendering: optimizeLegibility;
@@ -113,11 +28,12 @@ body, p, span, a, div {
 
 @font-face {
   font-family: "CormorantGaramondBold";
-  src: url("./assets/fonts/Cormorant_Garamond/CormorantGaramond-Bold.woff") format("woff"),
-    /* Modern Browsers */ url("./assets/fonts/Cormorant_Garamond/CormorantGaramond-Bold.woff2")
+  src: url("./assets/fonts/Cormorant_Garamond/CormorantGaramond-Bold.woff")
+      format("woff"),
+    url("./assets/fonts/Cormorant_Garamond/CormorantGaramond-Bold.woff2")
       format("woff2"),
-    /* Modern Browsers */ url("./assets/fonts/Cormorant_Garamond/CormorantGaramond-Bold.ttf")
-      format("truetype"); /* Safari, Android, iOS */
+    url("./assets/fonts/Cormorant_Garamond/CormorantGaramond-Bold.ttf")
+      format("truetype");
   font-style: normal;
   font-weight: normal;
   text-rendering: optimizeLegibility;
@@ -125,11 +41,12 @@ body, p, span, a, div {
 
 @font-face {
   font-family: "CormorantGaramondItalic";
-  src: url("./assets/fonts/Cormorant_Garamond/CormorantGaramond-Italic.woff") format("woff"),
-    /* Modern Browsers */ url("./assets/fonts/Cormorant_Garamond/CormorantGaramond-Italic.woff2")
+  src: url("./assets/fonts/Cormorant_Garamond/CormorantGaramond-Italic.woff")
+      format("woff"),
+    url("./assets/fonts/Cormorant_Garamond/CormorantGaramond-Italic.woff2")
       format("woff2"),
-    /* Modern Browsers */ url("./assets/fonts/Cormorant_Garamond/CormorantGaramond-Italic.ttf")
-      format("truetype"); /* Safari, Android, iOS */
+    url("./assets/fonts/Cormorant_Garamond/CormorantGaramond-Italic.ttf")
+      format("truetype");
   font-style: normal;
   font-weight: normal;
   text-rendering: optimizeLegibility;
@@ -138,10 +55,8 @@ body, p, span, a, div {
 @font-face {
   font-family: "PoppinsMedium";
   src: url("./assets/fonts/Poppins/Poppins-Medium.woff") format("woff"),
-    /* Modern Browsers */ url("./assets/fonts/Poppins/Poppins-Medium.woff2")
-      format("woff2"),
-    /* Modern Browsers */ url("./assets/fonts/Poppins/Poppins-Medium.ttf")
-      format("truetype"); /* Safari, Android, iOS */
+    url("./assets/fonts/Poppins/Poppins-Medium.woff2") format("woff2"),
+    url("./assets/fonts/Poppins/Poppins-Medium.ttf") format("truetype");
   font-style: normal;
   font-weight: normal;
   text-rendering: optimizeLegibility;
@@ -150,10 +65,8 @@ body, p, span, a, div {
 @font-face {
   font-family: "PoppinsRegular";
   src: url("./assets/fonts/Poppins/Poppins-Regular.woff") format("woff"),
-    /* Modern Browsers */ url("./assets/fonts/Poppins/Poppins-Regular.woff2")
-      format("woff2"),
-    /* Modern Browsers */ url("./assets/fonts/Poppins/Poppins-Regular.ttf")
-      format("truetype"); /* Safari, Android, iOS */
+    url("./assets/fonts/Poppins/Poppins-Regular.woff2") format("woff2"),
+    url("./assets/fonts/Poppins/Poppins-Regular.ttf") format("truetype");
   font-style: normal;
   font-weight: normal;
   text-rendering: optimizeLegibility;
@@ -162,10 +75,8 @@ body, p, span, a, div {
 @font-face {
   font-family: "PoppinsBold";
   src: url("./assets/fonts/Poppins/Poppins-Bold.woff") format("woff"),
-    /* Modern Browsers */ url("./assets/fonts/Poppins/Poppins-Bold.woff2")
-      format("woff2"),
-    /* Modern Browsers */ url("./assets/fonts/Poppins/Poppins-Bold.ttf")
-      format("truetype"); /* Safari, Android, iOS */
+    url("./assets/fonts/Poppins/Poppins-Bold.woff2") format("woff2"),
+    url("./assets/fonts/Poppins/Poppins-Bold.ttf") format("truetype");
   font-style: normal;
   font-weight: normal;
   text-rendering: optimizeLegibility;
@@ -174,10 +85,130 @@ body, p, span, a, div {
 @font-face {
   font-family: "PoppinsItalic";
   src: url("./assets/fonts/Poppins/Poppins-Italic.woff") format("woff"),
-    /* Modern Browsers */ url("./assets/fonts/Poppins/Poppins-Italic.woff2")
-      format("woff2"),
-    /* Modern Browsers */ url("./assets/fonts/Poppins/Poppins-Italic.ttf")
-      format("truetype"); /* Safari, Android, iOS */
+    url("./assets/fonts/Poppins/Poppins-Italic.woff2") format("woff2"),
+    url("./assets/fonts/Poppins/Poppins-Italic.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+  text-rendering: optimizeLegibility;
+}
+
+.font-comrod-regular {
+  font-family: "CormorantGaramondRegular", serif;
+}
+
+.font-comrod-light {
+  font-family: "CormorantGaramondLight", serif;
+}
+
+.font-comrod-bold {
+  font-family: "CormorantGaramondBold", serif;
+}
+
+.font-comrod-italic {
+  font-family: "CormorantGaramondItalic", serif;
+}
+
+.font-poppins-regular {
+  font-family: "PoppinsRegular", sans-serif;
+}
+
+.font-poppins-medium {
+  font-family: "PoppinsMedium", sans-serif;
+}
+
+.font-poppins-bold {
+  font-family: "PoppinsBold", sans-serif;
+}
+
+.font-poppins-italic {
+  font-family: "PoppinsItalic", sans-serif;
+}
+
+body {
+  font-family: "PoppinsRegular", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "CormorantGaramondRegular", serif;
+}
+
+body,
+p,
+span,
+a,
+div {
+  font-family: "PoppinsRegular", sans-serif;
+} */
+@import "tailwindcss";
+
+@font-face {
+  font-family: "CormorantGaramondRegular";
+  src: url("./assets/fonts/Cormorant_Garamond/CormorantGaramond-Regular.ttf")
+    format("truetype");
+  font-style: normal;
+  font-weight: normal;
+  text-rendering: optimizeLegibility;
+}
+
+@font-face {
+  font-family: "CormorantGaramondLight";
+  src: url("./assets/fonts/Cormorant_Garamond/CormorantGaramond-Light.ttf")
+    format("truetype");
+  font-style: normal;
+  font-weight: normal;
+  text-rendering: optimizeLegibility;
+}
+
+@font-face {
+  font-family: "CormorantGaramondBold";
+  src: url("./assets/fonts/Cormorant_Garamond/CormorantGaramond-Bold.ttf")
+    format("truetype");
+  font-style: normal;
+  font-weight: normal;
+  text-rendering: optimizeLegibility;
+}
+
+@font-face {
+  font-family: "CormorantGaramondItalic";
+  src: url("./assets/fonts/Cormorant_Garamond/CormorantGaramond-Italic.ttf")
+    format("truetype");
+  font-style: normal;
+  font-weight: normal;
+  text-rendering: optimizeLegibility;
+}
+
+@font-face {
+  font-family: "PoppinsMedium";
+  src: url("./assets/fonts/Poppins/Poppins-Medium.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+  text-rendering: optimizeLegibility;
+}
+
+@font-face {
+  font-family: "PoppinsRegular";
+  src: url("./assets/fonts/Poppins/Poppins-Regular.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+  text-rendering: optimizeLegibility;
+}
+
+@font-face {
+  font-family: "PoppinsBold";
+  src: url("./assets/fonts/Poppins/Poppins-Bold.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+  text-rendering: optimizeLegibility;
+}
+
+@font-face {
+  font-family: "PoppinsItalic";
+  src: url("./assets/fonts/Poppins/Poppins-Italic.ttf") format("truetype");
   font-style: normal;
   font-weight: normal;
   text-rendering: optimizeLegibility;
@@ -223,10 +254,19 @@ body {
 }
 
 /* Default fonts */
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: "CormorantGaramondRegular", serif;
 }
 
-body, p, span, a, div {
+body,
+p,
+span,
+a,
+div {
   font-family: "PoppinsRegular", sans-serif;
 }
