@@ -32,7 +32,7 @@ const AboutSection = () => {
             ></div>
             <p className="font-poppins-regular text-lg leading-relaxed mb-6">
               I am committed to providing tailored one-on-one online and offline
-              therapy sessions for individuals aged 12 to 40.My approach is
+              therapy sessions for individuals aged 12 to 40. My approach is
               centered on understanding each person’s unique needs and creating
               a safe, compassionate space for emotional growth.
             </p>
