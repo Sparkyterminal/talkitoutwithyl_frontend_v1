@@ -366,26 +366,28 @@ const ContactForm = () => {
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: 1.4, duration: 0.4 }}
               >
-                <label className="flex items-center cursor-pointer">
-                  <input
-                    type="checkbox"
-                    checked={formData.concerns.includes("Other")}
-                    onChange={() => handleConcernChange("Other")}
-                    className="mr-6 w-4 h-4 rounded border-2 focus:outline-none"
-                    style={{ accentColor: "#CA8080", borderColor: "#DBB378" }}
-                  />
-                  <span
-                    className="font-poppins-regular text-base mr-6"
-                    style={{ color: "#44534C", marginLeft: "0.5rem" }}
-                  >
-                    Other:
-                  </span>
+                <label className="flex flex-col sm:flex-row sm:items-center cursor-pointer w-full gap-2 sm:gap-4">
+                  <div className="flex items-center">
+                    <input
+                      type="checkbox"
+                      checked={formData.concerns.includes("Other")}
+                      onChange={() => handleConcernChange("Other")}
+                      className="mr-3 w-4 h-4 rounded border-2 focus:outline-none"
+                      style={{ accentColor: "#CA8080", borderColor: "#DBB378" }}
+                    />
+                    <span
+                      className="font-poppins-regular text-base"
+                      style={{ color: "#44534C", marginLeft: "0.5rem" }}
+                    >
+                      Other:
+                    </span>
+                  </div>
                   <input
                     type="text"
                     name="otherConcern"
                     value={formData.otherConcern}
                     onChange={handleInputChange}
-                    className="flex-1 px-3 py-2 border border-gray-200 rounded-lg font-poppins-regular text-sm focus:outline-none focus:border-opacity-50 transition-colors"
+                    className="mt-2 sm:mt-0 w-full px-3 py-2 border border-gray-200 rounded-lg font-poppins-regular text-sm focus:outline-none focus:border-opacity-50 transition-colors"
                     style={{ borderColor: "#DBB378", color: "#44534C" }}
                     placeholder="Please specify"
                     disabled={!formData.concerns.includes("Other")}
